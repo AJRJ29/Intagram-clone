@@ -5,8 +5,12 @@
 
 .app {
   background-color: #fafafa;
+  height: 100vh;
 }
 
-.app__headerImg {
+.app__header {
+  background-color: white;
   object-fit: contain;
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
 }
