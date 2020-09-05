@@ -9,10 +9,16 @@
 }
 
 .app__header {
+  display: flex;
+  justify-content: space-between;
   background-color: white;
   object-fit: contain;
   border-bottom: 1px solid lightgray;
   padding: 20px;
+}
+
+.app__headerImage {
+  object-fit: contain;
 }
 
 .app__signUp {
